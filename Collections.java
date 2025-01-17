@@ -1,7 +1,9 @@
 import java.util.List;
+import java.util.Queue;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Collections {
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class Collections {
 
         // Sets
 
-        // Instantiates a Set reference with an ArrayList implementation
+        // Instantiates a Set reference with an TreeSet implementation
         Set<Integer> sortedSet = new TreeSet<>();
         sortedSet.add(3);
         sortedSet.add(7);
@@ -30,7 +32,19 @@ public class Collections {
 
         // Iterates through the set
         for (Integer element : sortedSet) {
-        System.out.println(element);
+            System.out.println(element);
+        }
+
+        // Queues
+
+        // Instantiates a Queue reference with an LinkedList implementation
+        Queue<String> line = new LinkedList<>();
+        line.add("Mike");
+        line.add("Isabel");
+        line.add("Jenny");
+
+        for(String name: line) {
+            System.out.println(name);
         }
     }
 }
