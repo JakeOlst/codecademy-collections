@@ -4,5 +4,6 @@ public class Collections {
        ListCollection.main(null); // Lists
        SetCollection.main(null); // Sets
        QueueCollection.main(null); // Queue
+       DequeCollection.main(null); // Deque
     }
 }
