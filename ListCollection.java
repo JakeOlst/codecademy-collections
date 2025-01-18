@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListCollection {
@@ -16,5 +17,11 @@ public class ListCollection {
         for (String element : stringList) {
             System.out.println(element);
         }
+
+        // Sorts the stringList List for binary search
+        Collections.sort(stringList);
+
+        // Completes binary search over the list, printing index in sorted list
+        System.out.println(Collections.binarySearch(stringList, "!"));
     }
 }

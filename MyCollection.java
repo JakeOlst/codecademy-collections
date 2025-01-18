@@ -8,7 +8,7 @@ import java.util.Deque;
 import java.util.ArrayDeque;
 import java.util.Collection;
 
-public class BareCollection {
+public class MyCollection {
     public static void main(String[] args) {
         List<Integer> intList = new ArrayList<>();
         Set<String> stringSet = new HashSet<>();
@@ -49,4 +49,6 @@ public class BareCollection {
             System.out.println(item);
         }
     }
+
+
 }

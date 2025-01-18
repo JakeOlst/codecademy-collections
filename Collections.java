@@ -5,5 +5,6 @@ public class Collections {
        SetCollection.main(null); // Sets
        QueueCollection.main(null); // Queue
        DequeCollection.main(null); // Deque
+       MyCollection.main(null); // Collection Type
     }
 }
