@@ -2,6 +2,7 @@ import java.util.Deque;
 import java.util.ArrayDeque;
 import java.util.List;
 import java.util.ArrayList;
+
 public class DequeCollection {
   public static void main(String[] args) {
     List<Integer> myInts = new ArrayList<>();
@@ -15,13 +16,13 @@ public class DequeCollection {
     myInts.add(4);
 
     Deque<Integer> result = separateInts(myInts);
-    for(Integer i: result) {
+    for (Integer i : result) {
       System.out.println(i);
     }
   }
 
- // add your code here to complete separateInts()
-  public static Deque<Integer> separateInts(List<Integer> integers){
+  // add your code here to complete separateInts()
+  public static Deque<Integer> separateInts(List<Integer> integers) {
     Deque<Integer> separatedDeque = new ArrayDeque<>();
 
     for (Integer myInt : integers) {
